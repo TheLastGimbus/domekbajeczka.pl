@@ -1,5 +1,5 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://domekbajeczka.pl/'
+languageCode = 'pl-PL'
+title = 'Domek Bajeczka'
 
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
