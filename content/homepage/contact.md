@@ -3,7 +3,10 @@ title: "Kontakt"
 weight: 4
 ---
 
-Facebook: [@bajeczkadwernik](https://www.facebook.com/bajeczkadwernik)
+Wszelakie inne formy kontaktu:
+
+[//]: # (To jest chwilowo martwe)
+[//]: # (Facebook: [@bajeczkadwernik]&#40;https://www.facebook.com/bajeczkadwernik&#41;)
 
 Telefon: [+48 509 415 939](tel:+48509415939)
 
