@@ -23,7 +23,8 @@ Kawałek dalej czeka na nas kolejny szczyt - [Dwernik Kamień](https://gorydlaci
   marginheight="0" 
   marginwidth="0" 
   src="https://www.openstreetmap.org/export/embed.html?bbox=22.352371215820312%2C49.11680432998823%2C22.925720214843754%2C49.320422679265924&amp;layer=mapnik&amp;marker=49.218718364108334%2C22.63904571533203"
-   style="border: 1px solid black">
+   style="border: 1px solid black"
+   loading="lazy" >
 </iframe>
 <br/>
 
