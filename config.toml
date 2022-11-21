@@ -1,4 +1,4 @@
-baseURL = 'https://domekbajeczka.pl/'
+baseURL = 'https://domekbajeczka.netlify.app/'
 languageCode = 'pl-PL'
 title = 'Domek Bajeczka'
 
