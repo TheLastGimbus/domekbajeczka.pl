@@ -10,11 +10,11 @@ weight: 2
   scrolling="no" 
   marginheight="0" 
   marginwidth="0" 
-  src="https://www.openstreetmap.org/export/embed.html?bbox=22.517509460449222%2C49.11702904077932%2C22.76126861572266%2C49.32064646618636&amp;layer=mapnik&amp;marker=49.21894261284233%2C22.639389038085938"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=22.352371215820312%2C49.11680432998823%2C22.925720214843754%2C49.320422679265924&amp;layer=mapnik&amp;marker=49.218718364108334%2C22.63904571533203"
    style="border: 1px solid black">
 </iframe>
 <br/>
 
-[Navigate ⬆](geo:49.2189,22.5965?z=12)
+[Navigate ↗️](geo:49.21878,22.63894)
 
-[View Larger Map 🔗](https://www.openstreetmap.org/?mlat=49.2189&amp;mlon=22.6394#map=12/49.2189/22.6394)
+[View Larger Map 🔗](https://www.openstreetmap.org/?mlat=49.2187&amp;mlon=22.6390#map=12/49.21878/22.63894)
