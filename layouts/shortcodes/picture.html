@@ -1,0 +1,6 @@
+<picture>
+{{ range (split (.Get "alt-src") "," ) }}
+  <source srcset="{{ . }}">
+{{ end }}
+  <img src="{{ .Get "main-src" }}" alt="{{ .Get "alt" }}">
+</picture>
