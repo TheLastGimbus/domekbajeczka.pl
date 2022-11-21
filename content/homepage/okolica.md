@@ -15,6 +15,7 @@ weight: 2
 </iframe>
 <br/>
 
-[Navigate ↗️](geo:49.21878,22.63894)
+[Nawiguj mnie tam 🧭](geo:49.21878,22.63894)
 
-[View Larger Map 🔗](https://www.openstreetmap.org/?mlat=49.2187&amp;mlon=22.6390#map=12/49.21878/22.63894)
+[//]: # (Nie pokazuj tego na razie:)
+[//]: # ([View Larger Map 🔗]&#40;https://www.openstreetmap.org/?mlat=49.2187&amp;mlon=22.6390#map=12/49.21878/22.63894&#41;)
