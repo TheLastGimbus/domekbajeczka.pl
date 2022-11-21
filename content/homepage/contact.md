@@ -1,6 +1,6 @@
 ---
-title: "Kontakt do nas"
-weight: 9999
+title: "Kontakt"
+weight: 4
 ---
 
 Facebook: [@bajeczkadwernik](https://www.facebook.com/bajeczkadwernik)

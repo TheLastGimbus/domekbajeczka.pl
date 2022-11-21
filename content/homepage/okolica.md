@@ -29,6 +29,3 @@ Kawałek dalej czeka na nas kolejny szczyt - [Dwernik Kamień](https://gorydlaci
 <br/>
 
 [Nawiguj mnie tam 🧭](geo:49.21878,22.63894)
-
-[//]: # (Nie pokazuj tego na razie:)
-[//]: # ([View Larger Map 🔗]&#40;https://www.openstreetmap.org/?mlat=49.2187&amp;mlon=22.6390#map=12/49.21878/22.63894&#41;)
