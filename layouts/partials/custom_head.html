@@ -1,5 +1,25 @@
 <!-- This is file where you put your custom stuff for janraasch/hugo-scroll theme -->
 <style>
+    .mobile-only {
+        display: none;
+    }
+
+    .desktop-only {
+        display: block;
+    }
+
+    /* Selector for mobile devices - hopefully it works fairly okay */
+    /* Rule of thumb - don't overuse this */
+    @media only screen and (hover: none) and (pointer: coarse) {
+        .mobile-only {
+            display: block;
+        }
+
+        .desktop-only {
+            display: none;
+        }
+    }
+
     /* Default font for text. NOTE: You need to force h1, h2... etc to change headers */
     body {
         font-family: Helvetica, sans-serif;

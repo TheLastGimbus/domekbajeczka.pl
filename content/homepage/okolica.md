@@ -15,6 +15,8 @@ Kawałek dalej czeka na nas kolejny szczyt - [Dwernik Kamień](https://gorydlaci
 
 ---
 
+### Bajeczka na mapie:
+
 <iframe 
   width="100%" 
   height="400px" 
@@ -28,4 +30,5 @@ Kawałek dalej czeka na nas kolejny szczyt - [Dwernik Kamień](https://gorydlaci
 </iframe>
 <br/>
 
-[Nawiguj mnie tam 🧭](geo:49.21878,22.63894)
+<a href="geo:49.21878,22.63894" class="mobile-only">Otwórz na mapie w telefonie 🧭</a>
+<a href="https://g.page/bajeczka---domek-w-bieszczadach" class="desktop-only">Zobacz na Google Maps 🗺</a>
