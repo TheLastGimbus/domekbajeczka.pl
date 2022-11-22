@@ -2,5 +2,5 @@
 {{ range (split (.Get "alt-src") "," ) }}
   <source srcset="{{ . }}">
 {{ end }}
-  <img src="{{ .Get "main-src" }}" alt="{{ .Get "alt" }}">
+  <img src="{{ .Get "main-src" }}" alt="{{ .Get "alt" }}" loading="lazy">
 </picture>
