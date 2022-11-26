@@ -25,11 +25,27 @@ Cheet sheet of 16:9 resolutions:
 3840 ✕ 2889
 4096 ✕ 3072
 ```
+### 4k resolutions:
+| Format      | Resolution         |
+|-------------|--------------------|
+| 3840 x 1080 | 3.55∶1 (32∶9)      |
+| 3840 x 1600 | 2.40∶1 (12∶5)      |
+| 3840 x 2160 | 1.77∶1 (16∶9)      |
+| 3840 x 2400 | 1.60∶1 (16∶10)     |
+| 3996 x 2160 | 1.85∶1 (≈37∶20)    |
+| 4096 x 1716 | ≈2.39∶1 (1024∶429) |
+| 4096 x 2160 | ≈1.90∶1 (256∶135)  |
+| 4096 x 2304 | 1.77∶1 (16∶9)      |
+| 4096 x 2560 | 1.60∶1 (16∶10)     |
+| 4096 x 3072 | 1.33∶1 (4∶3)       |
 
 Image pipeline:
-- get the original image. If it's not absurdly big (in terms of pixel count), leave size as is - otherwise resize to something sane, like 3840 above
+- get the original image. As original as it can be. Pipe it through AI resolution enlarger - either cloud one or Upscayl! on pc (Upscayl! is better)
+- convert it's size back to 4K or smth like that
   - psst: check resolution with `magick identify image.jpg`
 - run `jpegoptim -m 90 image.jpg` on it
+  - you can run it once, or until it stops optimizing, i don't see big different - i will stick to once
+  - stick to jpg because the output will have a bit off colors if you use webp at this stage
 - add to `media/`
 - do stuff with hugo's processing:
   - resize stuff
