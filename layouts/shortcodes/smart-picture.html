@@ -1,13 +1,22 @@
 {{ $img := resources.Get (.Get "res") }}
+{{ if isset .Params "crop-size" }}
+  {{ $img = $img.Crop (.Get "crop-size") }}
+{{ end }}
 {{ $imgWebpX := $img.Resize "2048x webp q60" }}
 {{ $imgWebp1 := $img.Resize "800x webp q50" }}
 {{ $imgWebp2 := $img.Resize "1024x webp q50" }}
 <!-- When you click on the image, a good-quality one pops up -->
-<a href="{{ $imgWebpX.RelPermalink }}" target="_blank">
+<a href="{{ with .Get "link" }}{{ . }}{{ else }}{{ $imgWebpX.RelPermalink }}{{ end }}" target="_blank">
 <picture>
   <!-- Only webp because it's 2022 -->
   <source srcset="{{ $imgWebp2.RelPermalink }}" type="image/webp" media="(min-width: 650px)">
   <source srcset="{{ $imgWebp1.RelPermalink }}" type="image/webp" media="(max-width: 650px)">
-  <img src="{{ $imgWebp1.RelPermalink }}" alt="{{ .Get "alt" }}" loading="lazy">
+  <img
+    src="{{ $imgWebp1.RelPermalink }}"
+    alt="{{ .Get "alt" }}"
+    loading="lazy"
+    {{ with .Get "id" }}id="{{ . }}"{{ end }}
+    {{ with .Get "class" }}class="{{ . }}"{{ end }}
+  >
 </picture>
 </a>

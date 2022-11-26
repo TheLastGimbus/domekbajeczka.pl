@@ -20,6 +20,12 @@
         }
     }
 
+    .vertical-image {
+        margin: 0 1% !important;
+        width: 48%;
+        float: left;
+    }
+
     {{ $img := resources.Get "images/bajeczka/front-zima-frodo-koty.jpg" }}
     {{ $imgJpg1 := $img.Resize "1600x jpg q40" }}
     {{ $imgJpg2 := $img.Resize "2048x jpg q40" }}
