@@ -1,6 +1,6 @@
 {{ $img := resources.Get (.Get "res") }}
 {{ $imgWebpX := $img.Resize "2048x webp q60" }}
-{{ $imgWebp1 := $img.Resize "640x webp q50" }}
+{{ $imgWebp1 := $img.Resize "800x webp q50" }}
 {{ $imgWebp2 := $img.Resize "1024x webp q50" }}
 <!-- When you click on the image, a good-quality one pops up -->
 <a href="{{ $imgWebpX.RelPermalink }}" target="_blank">
