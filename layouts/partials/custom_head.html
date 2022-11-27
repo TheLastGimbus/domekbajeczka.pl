@@ -20,6 +20,11 @@
         }
     }
 
+    .map {
+        width: 100%;
+        height: 400px;
+    }
+
     .vertical-image {
         margin: 0 1% !important;
         width: 48%;
@@ -77,3 +82,7 @@
         background: #7b9d00;
     }
 </style>
+
+<!-- TODO: Benchmark if it's better to have this pre-downloaded in static/ folder -->
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
