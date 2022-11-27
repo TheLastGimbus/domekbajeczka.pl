@@ -23,9 +23,11 @@ W Bajeczce jest miejsce dla ośmiu osób, w:
 
 <div style="clear: both;"></div>
 
-Zima Bajeczce nie straszna! Można się ogrzać przy kominku opalanym drewnem i wziąć ciepłą kąpiel ☺
+Zima w Bajeczce niestraszna! Można ogrzać się przy kominku, i wziąć ciepłą kąpiel ☺
 
 {{< smart-picture res="images/bajeczka/lazienka.jpg" alt="Łazienka w Bajeczce" class="vertical-image" >}}
+
+{{< smart-picture res="images/bajeczka/front-zima-julka-frodo.jpg" alt="Julka z Frodem w śniegu" class="vertical-image" >}}
 
 [//]: # (TODO: Zdjęcie kominka)
 
