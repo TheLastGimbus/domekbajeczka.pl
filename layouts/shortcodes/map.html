@@ -1,23 +1,27 @@
-<!-- First, add this to <head>: -->
+<!-- First, add this before </body> -->
 <!-- <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script> -->
 <!-- <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' /> -->
 <div class='map' id="{{ .Get "id" }}"></div>
 <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoicXF3dHJ0ZXR0ciIsImEiOiJjbGF6Nml6NTQwNXNlM29uMm42Y3l1eG1nIn0.Faf-LoEHGEVem9BhSawFrQ';
-    var map = new mapboxgl.Map({
-        container: '{{ .Get "id" }}',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        // Two-fingers to move / ctrl to zoom
-        cooperativeGestures: true,
-        center: [{{ .Get "lon" }}, {{ .Get "lat" }}],
-        zoom: {{ .Get "zoom" }}
+    document.addEventListener('DOMContentLoaded', () => {
+        console.log("DOMContentLoaded ?? -> loading map {{ .Get "id" }}");
+
+        mapboxgl.accessToken = 'pk.eyJ1IjoicXF3dHJ0ZXR0ciIsImEiOiJjbGF6Nml6NTQwNXNlM29uMm42Y3l1eG1nIn0.Faf-LoEHGEVem9BhSawFrQ';
+        var map = new mapboxgl.Map({
+            container: '{{ .Get "id" }}',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            // Two-fingers to move / ctrl to zoom
+            cooperativeGestures: true,
+            center: [{{ .Get "lon" }}, {{ .Get "lat" }}],
+            zoom: {{ .Get "zoom" }}
+        });
+        map.dragRotate.disable();
+        map.touchZoomRotate.disableRotation();
+        map.addControl(new mapboxgl.NavigationControl({showCompass: false}));
+        map.addControl(new mapboxgl.ScaleControl());
+        // Marker with label
+        const centerMarker = new mapboxgl.Marker()
+            .setLngLat([{{ .Get "lon" }}, {{ .Get "lat" }}])
+            .addTo(map);
     });
-    map.dragRotate.disable();
-    map.touchZoomRotate.disableRotation();
-    map.addControl(new mapboxgl.NavigationControl({showCompass: false}));
-    map.addControl(new mapboxgl.ScaleControl());
-    // Marker with label
-    const centerMarker = new mapboxgl.Marker()
-        .setLngLat([{{ .Get "lon" }}, {{ .Get "lat" }}])
-        .addTo(map);
 </script>
