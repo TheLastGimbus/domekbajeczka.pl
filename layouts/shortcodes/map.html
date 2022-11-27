@@ -9,7 +9,7 @@
         mapboxgl.accessToken = 'pk.eyJ1IjoicXF3dHJ0ZXR0ciIsImEiOiJjbGF6Nml6NTQwNXNlM29uMm42Y3l1eG1nIn0.Faf-LoEHGEVem9BhSawFrQ';
         var map = new mapboxgl.Map({
             container: '{{ .Get "id" }}',
-            style: 'mapbox://styles/mapbox/streets-v11',
+            style: 'mapbox://styles/mapbox/streets-v11?optimize=true',
             // Two-fingers to move / ctrl to zoom
             cooperativeGestures: true,
             center: [{{ .Get "lon" }}, {{ .Get "lat" }}],
