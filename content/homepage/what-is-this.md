@@ -22,3 +22,15 @@ W Bajeczce jest miejsce dla ośmiu osób, w:
 {{< smart-picture res="images/bajeczka/pokoj-prawy.jpg" alt="Pokój z dwuosobowym łóżkiem w bajeczce" class="vertical-image" >}}
 
 <div style="clear: both;"></div>
+
+Zima Bajeczce nie straszna! Można się ogrzać przy kominku opalanym drewnem i wziąć ciepłą kąpiel ☺
+
+{{< smart-picture res="images/bajeczka/lazienka.jpg" alt="Łazienka w Bajeczce" class="vertical-image" >}}
+
+[//]: # (TODO: Zdjęcie kominka)
+
+<div style="clear: both;"></div>
+
+Jeśli zajdzie was ochota na świeże powietrze, na zewnątrz mamy miejsce na ognisko i altanke na grila - na ciepłe letnie wieczory 🌄
+
+[//]: # (TODO: Zdjęcie ogniska/altanki)
