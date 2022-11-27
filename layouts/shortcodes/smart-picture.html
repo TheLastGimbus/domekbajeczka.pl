@@ -5,6 +5,10 @@
 {{ $imgWebpX := $img.Resize "2048x webp q60" }}
 {{ $imgWebp1 := $img.Resize "800x webp q50" }}
 {{ $imgWebp2 := $img.Resize "1024x webp q50" }}
+{{ if in (.Get "class") "vertical-image" }}
+  {{ $imgWebp1 = $img.Resize "400x webp q50" }}
+  {{ $imgWebp2 = $img.Resize "512x webp q50" }}
+{{ end }}
 <!-- When you click on the image, a good-quality one pops up -->
 <a href="{{ with .Get "link" }}{{ . }}{{ else }}{{ $imgWebpX.RelPermalink }}{{ end }}" target="_blank">
 <picture>
