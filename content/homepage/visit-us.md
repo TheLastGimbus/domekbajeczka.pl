@@ -8,4 +8,4 @@ Gdybyś chciał do nas wpaść, możesz śmiało do nas zadzwonić i umówić po
 Możesz też napisać na WhatsAppie: {{< whatsapp number="+48509415939" text="Dzień dobry :) Interesuje się wynajęciem Bajeczki 🤔" >}}
 
 Jesteśmy też na bookingu:
-[<img style="margin: 0" width="200px" src="images/booking.svg">](https://www.booking.com/hotel/pl/bajeczka.pl.html)
+[<img src="images/booking.svg" alt="Zarezerwuj na Booking.com" style="margin: 0" width="200px" height="50px">](https://www.booking.com/hotel/pl/bajeczka.pl.html)

@@ -19,6 +19,8 @@
     src="{{ $imgWebp1.RelPermalink }}"
     alt="{{ .Get "alt" }}"
     loading="lazy"
+    width="{{ $imgWebpX.Width }}"
+    height="{{ $imgWebpX.Height }}"
     {{ with .Get "id" }}id="{{ . }}"{{ end }}
     {{ with .Get "class" }}class="{{ . }}"{{ end }}
   >
