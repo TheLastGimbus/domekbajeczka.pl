@@ -9,7 +9,7 @@ Dwernik to bardzo spokojne, mało zaludnione miejsce. Można w nim w spokoju wyj
 
 Kawałek dalej czeka na nas kolejny szczyt - [Dwernik Kamień](https://gorydlaciebie.pl/wyprawy/dwernik-kamien-wychodnie-skalne-i-panoramy/)
 
-{{< picture main-src="images/dwernik-kamien.jpg" alt="Dwernik Kamień" alt-src="images/dwernik-kamien.avif" >}}
+{{< smart-picture res="images/dwernik-kamien-szczyt-widok.jpg" alt="Dwernik Kamień" >}}
 
 ---
 
